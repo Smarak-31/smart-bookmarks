@@ -236,3 +236,4 @@ MIT
 ---
 
 **Built with ❤️ using Next.js, Supabase, and Tailwind CSS**
+# smart-bookmark
