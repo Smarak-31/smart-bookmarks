@@ -235,5 +235,5 @@ MIT
 
 ---
 
-**Built with ❤️ using Next.js, Supabase, and Tailwind CSS**
+**Built by Smarak with ❤️ using Next.js, Supabase, and Tailwind CSS**
 # smart-bookmark
