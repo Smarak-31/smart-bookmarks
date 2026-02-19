@@ -234,6 +234,37 @@ If you encounter any issues:
 MIT
 
 ---
+⏳ Post-Authentication Loading Behavior (Important)
+
+After successful Google authentication, users may briefly see an Emergent AI loading page instead of the main dashboard.
+
+What’s Happening?
+
+The application relies on an AI agent/service that may be in a sleep (cold start) state
+
+After login, the system first wakes up the AI agent
+
+During this time, a loading screen with a progress bar is shown
+
+What the User Should Do
+
+Sign in successfully with Google
+
+Wait for the loading bar to complete
+
+Once loading finishes, refresh the page manually
+
+After refresh, the app will load normally and all features will work as expected
+
+Why This Is Required
+
+This happens only on the first authentication or after inactivity
+
+It is a one-time warm-up step
+
+Subsequent usage will be instant and smooth
+
+⚠️ Note: This is expected behavior and not an error. If the loading screen appears, simply allow it to finish and refresh the page.
 
 **Built by Smarak with ❤️ using Next.js, Supabase, and Tailwind CSS**
 # smart-bookmark
