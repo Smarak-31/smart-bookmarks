@@ -234,7 +234,7 @@ If you encounter any issues:
 MIT
 
 ---
-⏳ Post-Authentication Loading Behavior (Important)
+**⏳ Post-Authentication Loading Behavior (Important)**
 
 After successful Google authentication, users may briefly see an Emergent AI loading page instead of the main dashboard.
 
